@@ -1,0 +1,25 @@
+.product-name
+    {
+      font-family: montserrat;
+      font-size: 32px;
+      font-weight: bold;
+      text-align: center;
+      margin: 4px 8px;
+    }
+
+  .order-method
+    {
+      font-family: montserrat;
+      font-size: 16px;
+      font-weight: regular;
+      text-align: center;
+    }  
+
+   .delivery-method
+    {
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  
+
+

@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+  </head>
+
+  <body style="padding-bottom: 1000px;">
+
+    <div class="flexbox">
+      <div class="div-one">
+        <div class="item-one">
+          Item 1
+        </div>
+    </div>
+      <div class="div-two"></div>
+    </div>
+
+    <div class="flexbox-two">
+      <div class="div-one-b"></div>
+      <div class="second-div-two">
+        row1
+        <div class="div-two-b">
+        <div class="item-one-b">
+          row 2
+        </div>
+        <div class="item-one-b">
+          row 2
+        </div>
+      </div>
+      </div>
+      
+    </div>
+
+
+
+
+
+    
+
+    
+
+
+      <div class="full-page">
+
+        <p class="mail-category">
+         ALL INBOXES
+        </p>
+
+        <div class="individual-preview">
+          <img class="sender-avatar" src="\Youtube\images\channel-2.jpeg">
+
+          <div class="email-preview-text">
+
+
+             <div class="subject-row">
+              <p class="email-sender">Chewy Promotions</p>
+              <p class="message-time">4:58 PM</p>
+            </div>
+
+
+            <div>
+             <p class="email-subject">
+              Biggest sales of the year!</p>
+             <p class="email-preview">
+              Hey there! We are writing to tell you about our...
+             </p>
+           </div>
+
+          </div>  
+        </div>
+
+
+        <div class="individual-preview">
+          <img class="sender-avatar" src="\Youtube\images\channel-1.jpeg">
+
+          <div class="email-preview-text">
+
+
+            <div class="subject-row">
+              <p class="email-sender">Brownques Marlee</p>
+              <p class="message-time">4:58 PM</p>
+            </div>
+
+
+            <div>
+             <p class="email-subject">
+              Biggest sales of the year!</p>
+             <p class="email-preview">
+              Hey there! We are writing to tell you about our...
+             </p>
+           </div>
+
+          </div>
+        </div>
+
+
+        <div class="individual-preview">
+          
+          <img class="sender-avatar" src="\Youtube\images\channel-3.jpeg">
+
+          <div class="email-preview-text">
+
+            <div class="subject-row">
+              <p class="email-sender">Netflix</p>
+              <p class="message-time">4:58 PM</p>
+            </div>
+
+
+            <div>
+              <p class="email-subject">
+                Here's what's coming soon to Netflix</p>
+              <p class="email-preview">
+                Hey there! We are writing to tell you about our...
+              </p>
+            </div>
+
+          </div>   
+        </div>
+
+
+
+        <div class="individual-preview">
+          <img class="sender-avatar" src="\Youtube\images\channel-7.jpeg">
+
+          <div class="email-preview-text">
+
+            <div class="subject-row">
+              <p class="email-sender">Best Buy</p>
+              <p class="message-time">4:58 PM</p>
+            </div>
+
+            <div>
+             <p class="email-subject">
+               Your Best Buy e-receipt</p>
+             <p class="email-preview">
+               Hey there! We are writing to tell you about our...
+             </p>
+            </div>
+
+          </div>
+        </div>
+      
+        
+      </div>
+
+
+      <div class="tweet-example">
+        <img class="poster-avi" src="\Youtube\images\channel-2.jpeg">
+
+        <div class="tweet-summary">
+        <p class="display-name">supersimple.dev <span class="username">@SuperSimpleDev</span></p>
+        <p class="tweet-body">
+          What is backend web development? A complete overview. New video is up!
+        </p>
+        
+        
+        <div class="external-link">
+          <img style="border-bottom-left-radius: 8px; border-top-left-radius: 8px;" src="\Youtube\images\channel-7.jpeg">
+          <div class="link-left">
+            <p class="link-header">youtube.com</p>
+            <p class="link-details">Backend web development - a complete overview (2021)</p>
+          </div>
+        </div>
+      </div>
+      </div>
+
+
+
+
+  </body>
+
+
+</html>
+
+
+<style>
+
+
+.poster-avi
+{
+  width: 40px;
+  height: 40px;
+  border-radius: 24px;
+}
+
+
+.tweet-example
+{
+  display: flex;
+  flex-direction: row;
+  column-gap: 8px;
+  align-items: flex-start;
+  font-family: arial;
+}
+
+.tweet-summary
+{
+  display: flex;
+  flex-direction: column;
+  row-gap: 0px;
+  width: 300px;
+}
+
+.display-name
+{
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.username
+{
+  color: gray;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.tweet-body
+{
+  font-size: 14px;
+  margin-top: 8px;
+  margin-bottom: 0px;
+}
+
+
+.link-left
+{
+  display: flex;
+  flex-direction: column;
+  row-gap: 4px;
+}
+
+
+  .external-link
+  {
+    display: flex;
+    flex-direction: row;
+    column-gap: 8px;
+    align-items: center;
+    width: 300px;
+    border: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    margin-top: 12px;
+    border-radius: 8px;
+  }
+  .link-header
+  {
+    font-size: 14px;
+    color: gray;
+    margin: 0;
+  }
+
+  .link-details
+  {
+    font-size: 14px;
+    margin: 0;
+  }
+
+  .individual-preview
+  {
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+  }
+
+
+  .email-preview-text
+  {
+    display: flex;
+    flex-direction: column;
+  
+    height: auto;
+    font-family: arial;
+    flex: 1;
+  }
+
+  .subject-row
+  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+  .full-page
+  {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    padding: 8px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .mail-category
+  {
+  
+    font-size: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: arial;
+    color: gray;
+  }
+
+
+  .email-sender
+  {
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 2px;
+    margin-top: 0px;
+  }
+
+  .message-time
+  {
+    font-size: 10px;
+    color: gray;
+    margin: 0;
+  }
+
+  .email-subject
+  {
+    font-weight: bold;
+    font-size: 10px;
+    margin-bottom: 4px;
+    margin-top: 0px;
+  }
+
+  .email-preview
+  {
+    font-size: 10px;
+    color: gray;
+    margin: 0;
+  }
+
+
+  .sender-avatar
+  {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+  }
+
+
+  .flexbox-two
+  {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    margin-top: 20px;
+  }
+
+  .second-div-two
+  {
+    background-color: lightpink;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    vertical-align: center;
+  }
+
+  .div-one-b 
+  {
+    background-color: lightblue;
+    width: 100px;
+  }
+
+  .item-one-b
+  {
+    background-color: black;
+    color: white;
+  }
+
+  .div-two-b
+  {
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .flexbox
+  {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+  }
+
+  .div-one 
+  {
+    background-color: lightblue;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .div-two
+  {
+    background-color: lightpink;
+    width: 200px;
+  }
+
+
+  .item-one
+  {
+    background-color: black;
+    color: white;
+  }
+</style>
+
+
+
+
+   

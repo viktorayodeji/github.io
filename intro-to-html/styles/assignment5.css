@@ -1,0 +1,230 @@
+.tahoma-text 
+{
+  font-family: Tahoma;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.video-title 
+{
+  font-family: verdana;
+  font-size: 24px;
+  font-weight: bold;
+  width: 280px;
+  margin-bottom: 0;
+  line-height: 24px;
+}
+
+.difficulty-level 
+{
+  font-family: verdana;
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+}
+
+.video-description 
+{
+  font-family: verdana;
+  font-size: 16px;
+  color: black;
+  width: 280px;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+.get-started-button 
+{
+  font-family: verdana;
+  font-size: 16px;
+  color: white;
+  background-color: green;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.get-started-button:hover 
+{
+  opacity: 0.78;
+}
+
+
+.tag-line 
+{
+  font-family: Arial;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 8;
+}
+
+.sale-end 
+{
+  font-family: Arial;
+  font-size: 20px;
+  color: rgb(222, 7, 7);
+  margin-bottom: 20px;
+  font-style: italic;
+  margin-top: 0;
+}
+
+
+.intro-text 
+{
+  font-family: Arial;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.how-we-help 
+{
+  font-family: Arial;
+  font-size: 16px;
+  color: black;
+  margin-bottom: 4px;
+  text-align: center;
+}
+
+
+.link-to-shop 
+{
+  font-family: Arial;
+  font-size: 16px;
+  color: blue;
+  text-align: center;
+  cursor: pointer;
+}
+
+.link-to-shop:hover 
+{
+  text-decoration: underline;
+}
+
+.price-text 
+{
+  font-family: Arial;
+  font-size: 14px;
+  color: black;
+  text-align: center;
+  margin-top: 4;
+}
+
+.buy-button
+{
+  margin: 10px;
+  padding: 6px 12px;
+  border-radius: 16px;
+  border: none;
+  color: white;
+  background-color: rgb(0, 106, 255);
+  cursor: pointer;
+  text-align: center;
+}
+
+.buy-button:hover
+{
+  opacity: 0.8;
+  align-items: center;
+
+}
+
+
+.product-age
+{
+  font-size: 12px;
+  font-weight: bold;
+  font-family: arial;
+  color: rgb(255, 111, 0);
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.product-name
+
+{
+  font-family: arial;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 4;
+  margin-bottom: 4;
+}
+
+.who-its-for
+{
+  text-align: center;
+  font-family: arial;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 4;
+  margin-bottom: 6;
+}
+
+.sf-price-text
+{
+  font-family: roboto;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.currency
+{
+  font-size: 12px;
+  font-weight: normal;
+  color: rgb(96, 96, 96);
+}
+
+.price-action
+{
+  font-family: roboto;
+  font-size: 14px;
+  color: rgb(0, 153, 51);
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.after-hours-price
+{
+  font-family: roboto;
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+  margin-top: 0;
+}
+
+.price-action-after
+{
+  color: rgb(255, 0, 0);
+}
+
+
+.poster-name
+{
+  font-family: roboto;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.poster-username
+{
+  font-weight: normal;
+  color: rgb(96, 96, 96);
+  margin-left: 8px;
+}
+
+.post-body
+{
+  font-family: roboto;
+  font-size: 14px;
+  color: black;
+  width: 380px;
+  line-height: 18px;
+  margin-top: 0px;
+}
+
+.username
+{
+  color: rgb(116, 179, 241);
+}

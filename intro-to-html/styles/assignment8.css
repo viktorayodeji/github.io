@@ -1,0 +1,164 @@
+.name-field, .email-field
+    {
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    .survey-prompt
+    {
+      display: inline-block;
+      width: 200px;
+      vertical-align: middle;
+    }
+
+    .survey-choices
+    {
+      vertical-align: middle;
+    }
+
+    .google-logo
+    {
+      width: 120px;
+      margin-top: 16px;
+      object-fit: contain;
+    }
+
+
+    .google-homepage-logo
+    { 
+      text-align: center;
+    }
+
+
+    .google-searchbar
+    {
+      width: 600px;
+      border: none;
+      padding: 12px 24px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+      border-radius: 24px;
+    }
+
+    .google-homepage-searchbar
+    {
+      text-align: center;
+    }
+
+    .google-homepage-buttons
+    {
+      text-align: center;
+      margin-top: 16px;
+      margin-bottom: 32px;
+    }
+
+    .homepage-buttons
+    {
+      padding: 8px 16px;
+      margin: 4px;
+      border: none;
+    }
+
+    .first-and-last-name
+    {
+      display: inline-block;
+      width: 120px;
+      padding: 8px 8px;
+      font-size: 12px;
+      color: black;
+      margin-right: 0px;
+      margin-bottom: 8px;
+      border-radius: 4px;
+      border: 2px solid rgb(215, 215, 215);
+    }
+
+
+    .email-address
+    {
+      display: block;
+      margin-bottom: 8px;
+      font-size: 12px;
+      padding: 8px 8px;
+      border-radius: 4px;
+      border: 2px solid rgb(215, 215, 215);
+      width: 262px;
+    }
+
+
+    .sign-up-button
+    {
+      background-color: rgb(62, 126, 245);
+      color: white;
+      border: none;
+      padding: 10px 16px;
+      font-weight: bold;
+      font-size: 12px;
+      border-radius: 4px;
+      width: 280px;
+      cursor: pointer;
+      transition: background-color 0.15s;
+    }  
+
+
+    .sign-up-button:hover
+    {
+      background-color: rgb(42, 96, 215);
+    }
+
+
+    .request-a-ride
+    {
+      font-family: arial;
+      font-size: 24px;
+      font-weight: regular;
+      margin-top: 16px;
+      margin-bottom: 16px;
+      margin-top: 32px;
+    }
+
+    .enter-pickup-location, .enter-destination
+    {
+      display: block;
+      width: 300px;
+      padding: 12px 16px;
+      font-size: 12px;
+      color: black;
+      background-color: rgb(239, 239, 239);
+      margin-bottom: 8px;
+      border: none;
+    }
+
+
+    .request-now-button
+    {
+      background-color: black;
+      color: white;
+      padding: 12px 16px;
+      border: none;
+      font-size: 14px;
+      margin-top: 16px;
+      margin-right: 12px;
+      cursor: pointer;
+      transition: opacity 0.15s;
+    }
+
+    .request-now-button:hover
+    {
+      opacity: 0.8;
+    }
+
+
+    .schedule-button
+    {
+      background-color: rgb(235, 235, 235);
+      border: none;
+      padding: 12px 16px;
+      font-size: 14px;
+      margin-top: 16px;
+      cursor: pointer;
+      transition: background-color 0.15s;
+    }
+
+    .schedule-button:hover
+    {
+      background-color: rgb(215, 215, 215);
+    }

@@ -1,0 +1,134 @@
+<div class="facebook-header">
+  <div class="left-section">
+    <img class="display-picture" src="/Youtube/images/channel-1.jpeg">
+    <p style="margin: 0;
+        font-size: 14px;
+        font-weight: bold;
+        font-family: arial;">
+        Oliver Cat
+  </p>
+  </div>
+  <div class="right-section">
+    <button style="padding: 6px 8px;
+        background-color: rgb(29, 114, 242);
+        border: none;
+        border-radius: 4px;
+        color: white;
+        font-weight: bold;
+        font-size: 12px;">
+        Add Friend
+    </button>
+
+    <button style="border: none;
+        background-color: rgb(222, 222, 222);
+        padding: 6px 8px;
+        border-radius: 4px;
+        font-weight: bold;
+        font-size: 12px;">
+      Message</button>
+  </div>
+</div>
+
+<div class="sidebar-one">
+  <img class="sidebar-images" src="/Youtube/images/channel-2.jpeg">
+  <img class="sidebar-images" src="/Youtube/images/channel-3.jpeg">
+  <img class="sidebar-images" src="/Youtube/images/channel-4.jpeg">
+</div>
+<div class="sidebar-two">
+  <div style="display: flex;
+      flex-direction: row;
+      column-gap: 8px;
+      align-items: center;
+      justify-content: space-between;">
+    Info
+    <img style="width: 18px;
+                height: 18px;" src="/Youtube/icons/search.svg">
+  </div>
+  <p>
+    &#35; new-videos
+  </p>
+  <p>
+    &#35; updates
+  </p>
+  <p>
+    &#35; faq
+  </p>
+
+</div>
+
+<style>
+
+  .sidebar-images
+  {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-bottom: 12px;
+  }
+
+  .sidebar-one
+  {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px 0;
+    background-color: rgb(50, 49, 49);
+    width: 60px;
+    height: calc(100% - 80px);
+  }
+
+  .sidebar-two
+  {
+    position: fixed;
+    top: 60px;
+    left: 60;
+    bottom: 0;
+    background-color: rgb(66, 62, 62);
+    color: white;
+    width: 100px;
+    padding: 12px;
+    border-right: 1px solid lightgray;
+  }
+  .display-picture
+  {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+  }
+
+  .right-section
+  {
+    display: flex;
+    flex-direction: row;
+    column-gap: 8px;
+    align-items: center;
+  }
+
+  .facebook-header
+  {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    box-sizing: border-box;
+  }
+
+  .left-section
+  {
+    display: flex;
+    flex-direction: row;
+    column-gap: 12px;
+    align-items: center;
+  }
+</style>
